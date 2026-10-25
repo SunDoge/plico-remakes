@@ -1,0 +1,15 @@
+[workspace]
+members = ["apps/*"]
+default-members = ["apps/peek"]
+resolver = "3"
+
+[workspace.dependencies]
+plico-core = { git = "https://github.com/SunDoge/plico.git", tag = "v0.1.1" }
+plico-dev = { git = "https://github.com/SunDoge/plico.git", tag = "v0.1.1" }
+plico-runtime = { git = "https://github.com/SunDoge/plico.git", tag = "v0.1.1" }
+plico-vello = { git = "https://github.com/SunDoge/plico.git", tag = "v0.1.1", default-features = false }
+plico-renderer = { git = "https://github.com/SunDoge/plico.git", tag = "v0.1.1" }
+plico-shell = { git = "https://github.com/SunDoge/plico.git", tag = "v0.1.1" }
+
+[profile.dev]
+opt-level = 1

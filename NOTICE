@@ -1,0 +1,6 @@
+Plico Remakes contains independent reimplementations of open-source applications.
+Per-application source attribution and license notices:
+
+- apps/peek/NOTICE: hyoban/peek (MIT), plus Lucide assets (ISC/MIT).
+
+Plico is separately licensed under Apache-2.0; framework source is fetched from Git.

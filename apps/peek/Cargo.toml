@@ -1,0 +1,24 @@
+[package]
+name = "peek"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "A Plico implementation of Peek for comparing Rust and Go GUI authoring"
+publish = false
+
+[dependencies]
+plico-core = { workspace = true }
+plico-dev = { workspace = true }
+plico-runtime = { workspace = true }
+plico-vello = { workspace = true }
+plico-renderer = { workspace = true }
+plico-shell = { workspace = true }
+serde = { version = "1", features = ["derive", "rc"] }
+snafu = "0.9"
+usage-rs = "7"
+serde_json = "1"
+syntect = { version = "5.3", default-features = false, features = ["default-fancy"] }
+
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "rustls-tls"] }
+sha2 = "0.10"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "webp"] }

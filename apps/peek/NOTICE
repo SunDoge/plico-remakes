@@ -1,0 +1,12 @@
+Peek / Plico is an independent Rust implementation of the Git browsing UI in
+hyoban/peek (https://github.com/hyoban/peek), licensed under the MIT License.
+The initial reference checkout is aa19f58c5146e5f5da1047a1c9a2c1fe92309c53.
+The three-column composition, labels and interaction conventions were adapted
+from that project. Its MIT license is preserved in LICENSE. Go sources are not
+vendored into this repository and are not build dependencies.
+
+Lucide SVGs are generated into src/icons.rs; source revision and ISC license
+are preserved in src/icons.rs.json and src/icons.rs.LICENSE.
+
+Plico is separately licensed under Apache-2.0. It is used through pinned Git
+dependencies; its source and licenses are provided by that dependency.
